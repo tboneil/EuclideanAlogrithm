@@ -6,7 +6,7 @@ public class EuclideanAlgorithm {
         if (secondInt == 0) {
             return firstInt;
         }
-
+        // Recursively calls the getGCD function
         return getGCD(secondInt, firstInt % secondInt);
     }
 
